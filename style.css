@@ -1,0 +1,1051 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    background: #F2F7FF;
+    font-family: Sora;
+}
+
+.contanier {
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 1200px;
+}
+
+.contant {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 99px;
+}
+
+header .logo , 
+.footer .logo{
+    position: relative;
+}
+header{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+}
+header .logo img , .footer .logo img{
+    width: 44px;
+    height: 44px;
+    position: absolute;
+    top: -5px;
+    right: -24px;
+    border-radius: 50%;
+}
+
+header .logo h1 , .footer .logo h1{
+    color: #326db9;
+    font-family: Sora;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40.32px;
+    text-align: left;
+}
+
+header .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .option a {
+    text-decoration: none;
+    margin-right: 35px;
+    color: #6C87AE;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.16px;
+    text-align: left;
+}
+header .option a:hover {
+    color:#F2F7FF;
+    background-color: #326db9;
+    border-radius: 5px;
+    font-size: 20;
+    padding: 5px
+
+    ;
+}
+
+header .account button {
+    width: Hug (232px)px;
+    height: Hug (56px)px;
+    border: none;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border-radius: 100px;
+    opacity: 0px;
+    background-color: #326db9;
+    color: white;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: left;
+    align-items: center;
+}
+header .account button:hover , .body .text button:hover{
+    border: 1px solid #326db9;
+    background-color: transparent;
+    color: #326db9;
+}
+
+header .account button img {
+    width: 10px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+header .fuulOption {
+    display: none;
+}
+
+header .fuulOption button {
+    width: 79px;
+    height: 49px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    border: none;
+    background: #326db9;
+    color: white;
+}
+
+header .fuulOption img {
+    width: 40px;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 50px;
+}
+
+.body .text h1 {
+    margin-top: 100px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: #326db9;
+}
+.body .text p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6C87AE;
+    margin-bottom: 25px;
+}
+.body .text button {
+    border: none;
+    width: 213px;
+    height: 56px;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border-radius: 100px;
+    opacity: 0px;
+    background-color: #326db9;
+    color: white;
+    font-family: Sora;
+    font-size: 24px;
+    text-align: center;
+}
+.body .text button img {
+    width: 10px;
+    height: 12px;
+    margin-right: 5px;
+}
+.body .media {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    margin-top: 40px;
+    background-color: #5467f80e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.body .media .img5 {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+}
+.body .media .info {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 14px;
+    height: 44px;
+    width: 184px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: -6px;
+    left: 20px;
+}
+
+.body .media .info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.body .media .info .text {
+    margin-left: 8px;
+    margin-top: -76px;
+    position: relative;
+}
+
+.body .media .info .text h1 {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #031432;
+}
+
+.body .media .info .text p {
+    font-family: Sora;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15.12px;
+    color: #6C87AE;
+}
+
+.service {
+    margin-top: 140px;
+    background-color: #E2EDFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.service h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #031432;
+    margin-top: 30px;
+}
+
+.service .option {
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+
+.service .option img {
+    width: 100%;
+    height: 170px;
+}
+
+.about .text {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about .text h1 {
+    width: 1100px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #031432;
+}
+
+.about .text p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #6C87AE;
+}
+
+.about .option {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    margin-top: 20px;
+}
+
+.about .option .card {
+    border-radius: 30px;
+    background-color: #fff;
+    width: 90%;
+    height: 310px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about .option .card .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #855FCE;
+    margin-top: 30px;
+    position: relative;
+}
+
+.about .option .card .m1 {
+    background-color: #855FCE;
+}
+
+.about .option .card .m2 {
+    background-color: #27AE60;
+}
+
+.about .option .card .m3 {
+    background-color: #2F80ED;
+}
+
+.about .option .card h1 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 4px;
+}
+
+.about .option .card p {
+    color: #6C87AE;
+    font-family: Sora;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.about .option .card .img img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    bottom: 24px;
+    right: 26px;
+}
+
+.about .option .card button {
+    height: 56px;
+    padding: 16px 96px 16px 28px;
+    gap: 10px;
+    border-radius: 100px;
+    background-color: #3A8EF6;
+    color: #fff;
+    border: none;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    box-shadow: 0px 24px 32px -3px #03093233;
+}
+
+.about .option .card button img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.hotal {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.hotal .hotal1 {
+    position: relative;
+}
+
+.hotal .hotal1 img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+.hotal .hotal1 .comant {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 160px;
+    border-radius: 10px;
+    padding-left: 8px;
+}
+
+.hotal .hotal1 .comant img {
+    width: 30px;
+    height: 30px;
+}
+
+.hotal .hotal1 .comant .star {
+    margin-left: 20px;
+}
+
+.hotal .hotal1 .comant h1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #031432;
+}
+
+.hotal .hotal1 .comant .star img {
+    width: 12px;
+    height: 12px;
+}
+
+.hotal .desc1 h1 {
+    margin-top: 40px;
+    color: #031432;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+
+}
+
+.hotal .desc1 p {
+    color: #6C87AE;
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hotal .desc1 button {
+    box-shadow: 0px 8px 23px 0px #4184F73D;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    width: Hug (178px)px;
+    height: Hug (56px)px;
+    padding: 16px 28px 16px 28px;
+    border: none;
+    gap: 10px;
+    border-radius: 100px;
+    opacity: 0px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.hotal .desc1 button img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.hotal .part2 {
+    margin-top: 40px;
+    width: 440px;
+}
+
+.hotal .hotal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-left: 150px;
+}
+
+.hotal .hotal2 .ci4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+
+}
+
+.hotal .hotal2 .ci3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #3a8ff62d;
+}
+
+.hotal .hotal2 .ci2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    border: 2px dashed #3a8ff62d;
+    background-clip: padding-box;
+}
+
+.hotal .hotal2 .ci1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    border: 2px dashed #3a8ff62d;
+    background-clip: padding-box;
+}
+
+.hotal .hotal2 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hotal .hotal2 .im1 {
+    width: 80px;
+    height: 80px;
+}
+
+.hotal .hotal2 .im2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 550px;
+    top: 180px;
+}
+
+.hotal .hotal2 .im3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 160px;
+    top: 40px;
+}
+
+.hotal .hotal2 .im3 {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 490px;
+    top: 360px;
+}
+
+.hotal .hotal2 .im4 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 154px;
+    top: 10px;
+}
+
+.hotal .hotal2 .im5 {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 290px;
+    top: 390px;
+}
+
+.theOtheroptione {
+    display: none;
+}
+
+.bord {
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    width: 100%;
+    height: 329px;
+    border-radius: 32px;
+    opacity: 0px;
+    box-shadow: 0px 20px 24px 0px #4184F73D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bord h1 {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+}
+
+.bord p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bord .buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bord .bt1 button {
+    color: #FFFFFF;
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    width: Hug (264px)px;
+    height: Hug (56px)px;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 8px 23px 0px #4184F73D;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bt2 button {
+    font-family: Sora;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    color: #3A8EF6;
+    box-shadow: 0px 8px 23px 0px #4184F73D;
+    background: #FFFFFF;
+    width: Hug (178px)px;
+    height: Hug (56px)px;
+    padding: 16px 28px 16px 28px;
+    gap: 10px;
+    border: none;
+    border-radius: 100px;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bord img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.ourEmp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.ourEmp .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ourEmp .text h1 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: #031432;
+}
+
+.ourEmp .text p {
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6C87AE;
+}
+
+.camantemp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.camantemp .item {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+.camantemp .item p {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    color: #031432;
+}
+.camantemp .item .prof{
+    display: flex;
+    align-items: center;
+}
+.camantemp .item .prof img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.camantemp .item .prof .info{
+    margin-left: 15px;
+}
+.camantemp .item .prof h1{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: #3A8EF6;
+}
+.camantemp .item .prof p{
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: #6C87AE;
+}
+.footer{
+    background-color: #0A0E31;
+    padding-top: 50px;
+    
+}
+.footer .parts{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 40% 20% 20% 20%;
+}
+.footer .parts .p1{
+    position: relative;
+}
+.footer .parts .p1 {
+    margin-top: 60px;
+}
+.p1 , .p2 , .p3 , .p4{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+} 
+.footer .parts p  {
+  margin-top: 5px;
+  font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+line-height: 44px;
+text-align: left;
+color: #fff;
+
+}  
+.footer .parts .p1 .logo h1{
+    color: #fff;
+}
+.p2 h1, .p3 h1, .p4 h1{
+    margin-top: 80px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+.p1 .media{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p1 .media img{
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+hr{
+    margin-top: 50px;
+}
+.Copyright{
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: #FFFFFF;
+text-align: center;
+margin-top: 40px;
+padding-bottom: 40px;
+}
+@media screen and (max-width: 1167px) {
+
+    .about .option {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about .option .card {
+        width: 100%;
+    }
+
+    .hotal {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hotal .hotal2 {
+        display: none;
+    }
+
+    .theOtheroptione {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+
+    header .option,
+    header .account {
+        display: none;
+    }
+
+    header .fuulOption {
+        display: block;
+    }
+    .footer .parts{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 90px;
+    }
+}
+
+@media screen and (max-width: 1219px) {
+    .service .option {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .body {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1219px) {
+    .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .body .media {
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+
+    .about .option {
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .text h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about .option .card {
+        width: 380px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .camantemp {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 700px) {
+    .body .text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .body .text p {
+        margin-top: 5px;
+        font-size: 15px;
+        line-height: 14px;
+    }
+
+    .contanier {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header .logo h1 , .footer .logo h1{
+        font-size: 26px;
+        line-height: 40.32px;
+    }
+
+    header .fuulOption button {
+        width: 49px;
+        height: 29px;
+    }
+
+    header .fuulOption img {
+        width: 20px;
+    }
+
+    .hotal .hotal1 .comant {
+        right: 50px;
+        top: -30px;
+    }
+
+    .hotal .part2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .bord h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .bord p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .bord .buttons {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .body .text h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .body .text p {
+        font-size: 10px;
+        line-height: 14px;
+    }
+.footer .parts{
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 2px;
+}
+}
+
+@media screen and (max-width: 470px) {
+    .hotal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hotal .hotal1 .comant {
+        width: 220px;
+    }
+
+    .about .option .card {
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .body .media {
+        width: 260px;
+        height: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .body .media .info {
+        bottom: -86px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .about .option .card {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    .theOtheroptione img {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .theOtheroptione img {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .theOtheroptione img {
+        width: 300px;
+    }
+}
