@@ -15,7 +15,9 @@ body {
     padding-right: 80px;
     max-width: 1200px;
 }
-
+header{
+    position: static;
+}
 .contant {
     display: flex;
     align-items: center;
@@ -301,21 +303,7 @@ header .fuulOption img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #855FCE;
     margin-top: 30px;
-    position: relative;
-}
-
-.about .option .card .m1 {
-    background-color: #855FCE;
-}
-
-.about .option .card .m2 {
-    background-color: #27AE60;
-}
-
-.about .option .card .m3 {
-    background-color: #2F80ED;
 }
 
 .about .option .card h1 {
@@ -338,11 +326,9 @@ header .fuulOption img {
 }
 
 .about .option .card .img img {
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    bottom: 24px;
-    right: 26px;
+    width: 90px;
+    height: 90px; 
+    border-radius: 50%;
 }
 
 .about .option .card button {
