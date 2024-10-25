@@ -369,7 +369,7 @@ header .fuulOption img {
     position: relative;
 }
 
-.hotal .hotal1 img {
+.hotal .hotal1 img , .hotal .theOtheroptione img{
     width: 90%;
     border-radius: 20px;
 }
@@ -559,9 +559,6 @@ header .fuulOption img {
     top: 390px;
 }
 
-.theOtheroptione {
-    display: none;
-}
 
 .bord {
     background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
@@ -822,10 +819,6 @@ padding-bottom: 40px;
     .hotal .hotal2 {
         display: none;
     }
-
-    .theOtheroptione {
-        display: block;
-    }
 }
 
 @media screen and (max-width: 1030px) {
@@ -1034,4 +1027,20 @@ padding-bottom: 40px;
     .theOtheroptione img {
         width: 300px;
     }
+}
+#btn:hover{
+    background: transparent;
+    border: 1px solid blue;
+    color: black;
+}
+.media {
+    display: flex;
+    gap: 15px;
+}
+.media a {
+    text-decoration: none;
+    color: white; /* Adjust color as needed */
+}
+.media a:hover {
+    color: #0056b3; /* Darker shade on hover */
 }
