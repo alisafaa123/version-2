@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+body {
+    background: #F2F7FF;
+    font-family: Sora;
+}
+.jobs{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.jobs .text{
+    text-align: center;
+}
+.jobs .text span{
+    color: #326db9;
+}
+.jobs .text p{
+    margin-top: 10px;
+    color: #414549;
+}
+.listJob{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 40px;
+}
+.listJob .it{
+    width: 100%;
+    background-color: #41454975;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listJob .it .card{
+    border-radius: 10px;
+    background-color: #b932858c;
+    padding: 10px;
+}
+.listJob .it .card .date{
+    background-color: #F2F7FF;
+    width:140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: bold;
+    color: rgba(58, 58, 58, 0.952);
+}
+.listJob .it .card .title{
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.listJob .it .card .des{
+    margin-top: 5px;
+}
+.listJob .it .card .des p{
+    color: #e2e2e2;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.listJob .it .card .option {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+    gap: 6px;
+}
+.listJob .it .card .option .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 13px;
+    border-radius: 20px;
+    color: #000000;
+}
+.listJob .it .sentCv{
+    margin-top: 12px;
+    margin-bottom: 22px;
+    background-color: #e2e2e2;
+    font-size: 20px;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+.listJob .it .sentCv:hover{
+    background-color: #2d4b3c;
+    color: #e2e2e2;
+}
+.listJob .it .C1{
+    background-color: #9332b9;
+}
+.listJob .it .C2{
+    background-color: #616ba7;
+}
+.listJob .it .C3{
+    background-color: #2d4b3c;
+}
+.listJob .it .C4{
+    background-color: #86575b;
+}
+@media screen and (max-width: 1186px) {
+    .listJob{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        grid-gap: 40px;
+    }
+}
+@media screen and (max-width: 806px) {
+    .listJob{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+}
