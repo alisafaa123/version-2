@@ -9,6 +9,7 @@ body {
     font-family: Sora;
 }
 
+
 .contanier {
     margin: auto;
     padding-left: 80px;
@@ -414,7 +415,17 @@ header .fuulOption img {
     width: 12px;
     height: 12px;
 }
+.desc1 a{
+    text-decoration: none;
+    color: white;
 
+}
+
+.desc1 a:hover{
+    text-decoration: none;
+    color: black;
+
+}
 .hotal .desc1 h1 {
     margin-top: 40px;
     color: #031432;
@@ -807,6 +818,16 @@ text-align: center;
 margin-top: 40px;
 padding-bottom: 40px;
 }
+
+.t1 h1{
+    text-align:center;
+margin-top: 60px;
+color: #6C87AE;
+font-size: 50px;
+}
+
+
+
 @media screen and (max-width: 1167px) {
 
     .about .option {
