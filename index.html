@@ -45,7 +45,7 @@
                 <p>Call Oil Co. is a leading oil and gas company based in Iraq, dedicated to delivering high-quality
                     energy solutions. With a strong commitment to innovation and sustainability, we harness the
                     country's rich natural resources to provide reliable oil production and distribution services.</p>
-                <button>Start</button>
+                <button onclick="info()">Start</button>
             </div>
             <div class="media">
                 <img src="https://careers.atkinsrealis.com/img/d8a23a88-2f51-4dee-5286-08db61104406" alt=""class="img5">
@@ -280,6 +280,10 @@
         }
         function jobs(){
             const url = `jobs.html`;
+            window.open(url, '_blank');
+        }
+        function info(){
+            const url = `info.html`;
             window.open(url, '_blank');
         }
     </script>
